@@ -1,0 +1,83 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    margin-top: 8px;
+}
+
+.letter-spacing{
+    color: #9C27B0;
+}
+
+.left-content{
+    color: white;
+    margin-left: 40px;
+}
+
+.links nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.links a:hover{
+    color: #9C27B0;
+}
+
+.logos{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.logos i{
+    font-size: 20px;
+    color: white;
+}
+
+.logos a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.logos #r-btn{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #9C27B0;
+    transition: 0.7s ease;
+}
+
+.logos #r-btn:hover{
+    background-color: transparent;
+    color: #9C27B0;
+}
+
+.logos #l-btn{
+    border: 1px solid #9C27B0;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: 0.7s ease;
+    color: #9C27B0;
+}
+
+.logos #l-btn:hover{
+    background-color:#9C27B0;
+    color: white;
+}

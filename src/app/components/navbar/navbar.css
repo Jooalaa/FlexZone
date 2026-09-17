@@ -1,10 +1,13 @@
 .NavBar{
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    top: 0;
     z-index: 1000;
-    margin-top: 8px;
+    background-color: #0b0714;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease;
 }
 
 .letter-spacing{
@@ -38,7 +41,7 @@
 
 .logos{
     display: flex;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     margin: 0;
     margin-right: 40px;
@@ -80,4 +83,8 @@
 .logos #l-btn:hover{
     background-color:#9C27B0;
     color: white;
+}
+
+.NavBar.scrolled {
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.5); 
 }

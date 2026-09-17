@@ -1,4 +1,21 @@
-*{
-    background-color: #121212;
+body { background-color: #0b0714; color: white; margin: 0; }
+/* ================= Variables & Globals ================= */
+:root {
+    --bg-dark: #0b0714;
+    --bg-card: #150f24;
+    --primary-color: #8a2be2;
+    --primary-light: #9f66ff;
+    --text-muted: #a0a0a0;
+    --border-color: #2a1b42;
+    --new: #15142a;
 }
-/*the elemnts color is #9C27B0 */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:host {
+    display: block;
+    background-color: var(--bg-dark);
+}

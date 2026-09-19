@@ -11,7 +11,7 @@
 }
 
 .letter-spacing{
-    color: #9C27B0;
+    color: #524288;
 }
 
 .left-content{
@@ -36,7 +36,7 @@
 }
 
 .links a:hover{
-    color: #9C27B0;
+    color: #524288;
 }
 
 .logos{
@@ -62,29 +62,122 @@
 .logos #r-btn{
     padding: 10px;
     border-radius: 30px;
-    background-color: #9C27B0;
+    background-color: #524288;
     transition: 0.7s ease;
 }
 
 .logos #r-btn:hover{
     background-color: transparent;
-    color: #9C27B0;
+    color: #524288;
 }
 
 .logos #l-btn{
-    border: 1px solid #9C27B0;
+    border: 1px solid #524288;
     padding: 10px;
     border-radius: 30px;
     background-color: transparent;
     transition: 0.7s ease;
-    color: #9C27B0;
+    color: #524288;
 }
 
 .logos #l-btn:hover{
-    background-color:#9C27B0;
+    background-color:#524288;
     color: white;
 }
 
 .NavBar.scrolled {
     box-shadow: 0 4px 15px rgba(156, 39, 176, 0.5); 
+}
+
+
+.mobile-only {
+    display: none;
+}
+
+
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.custom-drawer {
+    background-color: #0b0714;
+    border-left: 1px solid #524288;
+}
+
+.drawer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.drawer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+}
+
+.drawer-links a:hover {
+    color: #524288;
+}
+
+.drawer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.drawer-l-btn {
+    border: 1px solid #524288;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #524288;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.drawer-l-btn:hover {
+    background-color: #524288;
+    color: white;
+}
+
+.drawer-r-btn {
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #524288;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.drawer-r-btn:hover {
+    background-color: transparent;
+    color: #524288;
+    border: 1px solid #524288;
+}
+
+
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none !important;
+    }
+    
+    .mobile-only {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
 }
